@@ -48,7 +48,7 @@ void loop()
 
 		// Execute every 510ms the logic, the command to open and close the garage door
 		// cames directly from SoulissApp or the push-button located on the other node
-		FAST_50ms() {
+		FAST_10ms() {
 
 			boolean button_pressed = false;
 			button_address button;
